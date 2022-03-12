@@ -1,0 +1,60 @@
+/* Button style */
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  font-family: $gotham-bold;
+  text-transform: capitalize;
+  padding: 10px 25px;
+  border-radius: 0;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: $text-color-dark;
+  border-color: $primary-color;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    background: $primary-color !important;
+    border-color: $primary-color !important;
+  }
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: $text-color;
+  border-color: $primary-color;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    background: $primary-color !important;
+    border-color: $primary-color !important;
+    color: $white;
+  }
+}
+
+.btn-link{
+  border: 0;
+  color: $secondary-color;
+  padding: 0;
+}

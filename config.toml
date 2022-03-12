@@ -1,0 +1,29 @@
+################################# Default configuration ###################
+# provide your domain here
+baseURL = "https://examplesite.com/"
+# theme
+theme = "aou"
+# site title
+title = "All Of Us"
+# Summary
+summaryLength = "20"
+# disable language
+disableLanguages = ["fr"]
+
+################################# Default Parameters ###################
+[params]
+logo= "images/logo.png"
+
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+topic_title = "Explore the Learning"
+
+################################### Franch Language ######################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+weight = 2
+topic_title = "Explore the Learning"

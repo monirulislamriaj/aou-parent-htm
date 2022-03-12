@@ -1,0 +1,78 @@
+/*  typography */
+@font-face {
+  font-family: 'gothambook';
+  src: url('../fonts/gotham_book.woff2') format('woff2'),
+       url('../fonts/gotham_book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'gothammedium';
+  src: url('../fonts/gotham_medium.woff2') format('woff2'),
+       url('../fonts/gotham_medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'gothambold';
+  src: url('../fonts/gotham_bold.woff2') format('woff2'),
+       url('../fonts/gotham_bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  line-height: 1.7;
+  font-family: $gotham-book;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  background-color: $body-color;
+  color: $text-color;
+}
+
+p {
+  color: $text-color;
+  font-size: 15px;
+  line-height: 1.7;
+  font-family: $gotham-book;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+  color: $text-color-dark;
+  font-family: $gotham-bold;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+h1, .h1{
+  font-size: 30px;
+}
+
+h2, .h2{
+  font-size: 24px;
+}
+
+h3, .h3{
+  font-size: 22px;
+}
+
+h4, .h4{
+  font-size: 20px;
+}
+
+h5, .h5{
+  font-size: 18px;
+}
+
+h6, .h6{
+  font-size: 16px;
+}
